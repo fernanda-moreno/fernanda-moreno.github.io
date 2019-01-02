@@ -91,6 +91,13 @@ img.poster {
   text-align: left;
   font-size: 150%;
 }
+
+#website > p {
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: left;
+  font-size: 150%;
+}
 #TravelTroopers > p {
   margin-right: 200px;
   margin-left: 200px;
