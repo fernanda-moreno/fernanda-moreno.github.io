@@ -66,6 +66,7 @@ ul > li:hover > ul > li {
   list-style: none;
   width: 100%;
   text-align: center;
+  position: absolute;
 }
 
 #navbar2 > ul > li {
