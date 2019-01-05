@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Libre+Franklin|Lobster+Two');
 
 #navbar > ul {
     margin: 0px;
@@ -8,14 +10,19 @@
     width: 100%;
     text-align: center;
     position: absolute;
+
 }
 
 #navbar > ul > li {
     margin: 0 2em;
     display: inline-block;
     float: right;
-    border-bottom: solid #7f8c8d 2px;
+    border-bottom: solid white 2px;
+    color: black;
+}
 
+#AboutMe {
+  display: inline-block;
 }
 #port > ul {
   margin: 0px;
@@ -28,7 +35,7 @@
     padding: 0;
     float: left;
     border-bottom: solid #7f8c8d 2px;
-    background-color: lightgrey;
+    background-color: white;
     line-height: 45px;
     text-align: center;
     border-bottom: none;
@@ -41,7 +48,7 @@
 }
 
 #port > ul > li > a:hover {
-  background-color: white;
+  background-color: lightgrey;
 }
 
 ul > li > ul > li {
@@ -57,7 +64,15 @@ ul > li:hover > ul > li {
     height: 100%;
     margin: 0;
     text-decoration: none;
-    color: #7f8c8d;
+    color: black;
+}
+
+.nav-link:hover {
+    color:grey;
+}
+
+.a > .nav-link {
+  color: grey;
 }
 
 #navbar2 > ul {
@@ -73,7 +88,7 @@ ul > li:hover > ul > li {
   margin: 0 2em;
   display: inline-block;
   float: left;
-  border-bottom: solid #7f8c8d 2px;
+  border-bottom: solid white 2px;
 }
 
 img.poster {
@@ -120,25 +135,27 @@ img.poster {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #7f8c8d;
+    color: black;
     background-color: #fefefe;
     margin-top: 2em;
     text-align: center;
 }
 
 div.a {
-  font-size: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 75px;
+  font-size: 35px;
+  margin-right: 25px;
+  margin-left: auto;
+  text-align: left;
 }
 
 div.b {
   margin-top: 50px;
   font-size: 20px;
 }
-h1{
-  font-family: 'Slabo 27px', serif;
+h1 {
+  font-family: 'Courgette', cursive;
+  font-family: 'Lobster Two', cursive;
+  color: black;
   font-size: 65px;
 }
 h2 {
@@ -152,9 +169,10 @@ h3{
 }
 
 .center {
+    float: left;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+
     width: 50%;
     border-radius: 40%;
 }
@@ -206,7 +224,11 @@ input.MyButton:hover {
   color: white;
   padding: 5px;
   text-align: center;
-  background-color:#9068be;
+  background-color:#39CCCC;
+}
+
+.tabcontent > h1 {
+  color: white;
 }
 
 .textWithBlurredBg{
