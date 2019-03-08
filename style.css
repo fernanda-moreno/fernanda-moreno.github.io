@@ -3,6 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Courgette|Libre+Franklin|Lobster+Two');
 
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .a, #navbar {
+    width:100%;
+  }
+}
+
 #navbar > ul {
     margin: 0px;
     padding: 0px;
