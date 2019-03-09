@@ -10,7 +10,7 @@
 </head>
 <body style="background-color:white;">
     <!-- Navigation -->
-    <div id="navbar">
+    <div class = "mynav" id="navbar">
         <ul>
           <li id="port"><a>Portfolio</a>
             <ul>
@@ -29,9 +29,10 @@
             </ul>
           </li>
           <li>
-                <a href="https://fernanda-moreno.github.io/" class="nav-link">Home</a>
+                <a href="https://fernanda-moreno.github.io/" class="home">Home</a>
           </li>
         </ul>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
     <div id="navbar2">
@@ -47,6 +48,16 @@
         </li>
       </ul>
     </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("navbar");
+        if (x.className === "mynav") {
+          x.className += " responsive";
+        } else {
+          x.className = "mynav";
+        }
+      }
+    </script>
   </br>
     <!-- About Me -->
     <div id="AboutMe">
