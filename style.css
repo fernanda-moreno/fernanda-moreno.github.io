@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 @import url('https://fonts.googleapis.com/css?family=Courgette|Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Courgette|Libre+Franklin|Lobster+Two');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 
 @media screen and (max-width: 620px) {
@@ -33,13 +34,16 @@
   }
 }
 
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .a {
+    width:100%;
+  }
+}
+
 .mynav .icon {
   display: none;
   color: black;
-}
-
-.mynav {
-  overflow: hidden;
 }
 
 
@@ -89,7 +93,7 @@
   display: grid;
 }
 
-#port > ul > li > a:hover {
+#port > ul > li > a:hover, #port > ul > li > a:active {
   background-color: lightgrey;
 }
 
@@ -309,4 +313,14 @@ input.MyButton:hover {
 
   .textWithBlurredBg:hover :not(img){
     opacity:1;
+  }
+
+  #lab_social_icon_footer {
+    padding: 40px 0;
+    background-color: #dedede;
+    width: 100%;
+  }
+
+  #lab_social_icon_footer a {
+    color: #333;
   }
