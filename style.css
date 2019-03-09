@@ -93,7 +93,7 @@
   display: grid;
 }
 
-#port > ul > li > a:hover, #port > ul > li > a:active {
+#port > ul > li > a:hover {
   background-color: lightgrey;
 }
 
@@ -101,7 +101,7 @@ ul > li > ul > li {
   display: none;
 }
 
-ul > li:hover > ul > li {
+ul > li:hover > ul > li, #port:active  {
   display: grid;
 }
 
