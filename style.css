@@ -27,7 +27,7 @@
   }
   .mynav.responsive #port { float: none;}
   .mynav.responsive #port > ul > li {position: relative;}
-  .mynav.responsive #port > a{
+  .mynav.responsive #port > a:active {
     display: block;
     width: 100%;
     text-align: left;
@@ -94,7 +94,7 @@ ul > li > ul > li {
   display: none;
 }
 
-ul > li:hover > ul > li, #port a:active  {
+ul > li:hover > ul > li {
   display: grid;
 }
 
