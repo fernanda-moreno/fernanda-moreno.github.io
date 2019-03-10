@@ -41,13 +41,6 @@
   }
 }
 
-.mynav .icon {
-  display: none;
-  color: black;
-}
-
-
-
 #navbar > ul {
     overflow: hidden;
     margin: 0px;
@@ -101,7 +94,7 @@ ul > li > ul > li {
   display: none;
 }
 
-ul > li:hover > ul > li, #port:active  {
+ul > li:hover > ul > li, #port a:active  {
   display: grid;
 }
 
@@ -189,10 +182,10 @@ body {
 
 div.a {
   font-size: 35px;
-  margin-right: 25px;
+  margin-right: 35px;
   margin-left: auto;
   text-align: left;
-  width: 100%;
+  max-width: 100%;
 }
 
 div.b {
