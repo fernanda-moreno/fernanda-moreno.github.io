@@ -215,7 +215,8 @@ div.a {
     display: block;
     margin: 0 auto;
     margin-left: 100px;
-    float: center;
+    float: right;
+    width: 100%;
   }
 }
 
@@ -228,6 +229,18 @@ div.a {
     margin-bottom: 20px;
     float: right;
     margin-top: 30px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 60em) {
+  #port > ul > li {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 60em) {
+  #AboutMe h1 {
     text-align: left;
   }
 }
