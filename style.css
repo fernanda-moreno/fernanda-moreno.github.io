@@ -199,13 +199,13 @@ div.a {
 
 @media only screen and (max-width: 60em) {
   div.a {
-    font-size: 15px;
+    font-size: 20px;
     margin: auto;
     margin-left: 10px;
     margin-right: auto;
     float: right;
     margin-top: 30px;
-    text-align: center;
+    text-align: left;
 
   }
 }
@@ -222,7 +222,7 @@ div.a {
 
 @media only screen and (max-width: 60em) {
   #TravelTroopers p, #PetBowl p, #java p, #twit p, #website p {
-    font-size: 20px;
+    font-size: 18px;
     margin: auto;
     margin-left: 10px;
     margin-right: auto;
@@ -242,6 +242,7 @@ div.a {
 @media only screen and (max-width: 60em) {
   #AboutMe h1 {
     text-align: left;
+    font-size: 64px;
   }
 }
 
