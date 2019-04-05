@@ -73,6 +73,7 @@
   padding: 0px;
   list-style: none;
   display: grid;
+  cursor: pointer;
 }
 #port > ul > li {
     margin: 0;
