@@ -329,6 +329,7 @@ input.MyButton:hover {
     height:100%;
     transition:.3s;
     border-radius:4px;
+    margin: auto;
   }
 
   .textWithBlurredBg:hover img{
