@@ -61,7 +61,7 @@
     margin: 0 2em;
     display: inline-block;
     float: right;
-    border-bottom: solid white 2px;
+    border-bottom: solid transparent 2px;
     color: black;
 }
 
@@ -222,7 +222,7 @@ div.a {
 
 @media only screen and (max-width: 60em) {
   #TravelTroopers p, #PetBowl p, #java p, #twit p, #website p {
-    font-size: 18px;
+    font-size: 15px;
     margin: auto;
     margin-left: 10px;
     margin-right: auto;
@@ -240,13 +240,11 @@ div.a {
 }
 
 @media only screen and (max-width: 60em) {
-  #AboutMe h1 {
+  #AboutMe h1, .tabcontent {
     text-align: left;
-    font-size: 64px;
+    margin-top: 180px;
   }
 }
-
-
 
 div.b {
   margin-top: 50px;
