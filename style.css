@@ -240,9 +240,10 @@ div.a {
 }
 
 @media only screen and (max-width: 60em) {
-  #AboutMe h1, .tabcontent {
-    text-align: left;
-    margin-top: 50px;
+  #AboutMe h1 {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
   }
 }
 
