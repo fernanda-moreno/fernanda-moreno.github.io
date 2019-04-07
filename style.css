@@ -246,6 +246,9 @@ div.a {
     float: right;
     width: 100%;
   }
+  img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 60em) {
@@ -259,6 +262,30 @@ div.a {
     margin-top: 30px;
     text-align: left;
     width: 100%;
+  }
+
+  #java > img {
+    width: 100%;
+    margin: 0;
+  }
+
+  #java_vid {
+    width: 100%;
+  }
+
+  #TravelTroopers img {
+    width: 100%;
+    margin: 0;
+  }
+
+  #PetBowl img {
+    width: 100%;
+    margin: 0;
+  }
+
+  iframe {
+    width: 100%;
+    margin: 0;
   }
 }
 
