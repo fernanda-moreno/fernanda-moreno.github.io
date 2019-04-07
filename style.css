@@ -13,13 +13,14 @@
     width: 100%;
     text-align: center;
     position: absolute;
+    margin-left: 370px;
 
 }
 
 #navbar > ul > li {
     margin: 0 2em;
     display: inline-block;
-    float: right;
+    list-style-type: none;
     border-bottom: solid transparent 2px;
     color: black;
 }
@@ -79,20 +80,15 @@ ul > li:hover > ul > li {
   color: grey;
 }
 
-#navbar2 > ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-  width: 100%;
-  text-align: center;
-  position: relative;
-}
-
-#navbar2 > ul > li {
-  margin: 0 2em;
-  display: inline-block;
-  float: left;
-  border-bottom: solid white 2px;
+@media screen and (max-width: 500px) {
+  #navbar ul {
+    margin-left: 0px;
+  }
+  #navbar ul li {
+    float: none;
+    margin: 10px;
+    display: block;
+  }
 }
 
 img.poster {
