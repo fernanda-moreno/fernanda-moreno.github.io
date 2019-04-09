@@ -6,7 +6,7 @@
 
 
 #navbar > ul {
-    overflow: hidden;
+
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -17,7 +17,7 @@
 }
 
 #navbar > ul > li {
-    margin: 0 2em;
+    margin: 0 3em;
     display: inline-block;
     float: right;
     border-bottom: solid transparent 2px;
@@ -33,11 +33,12 @@
   list-style: none;
   display: grid;
   cursor: pointer;
+  position: absolute;
 }
 #port > ul > li {
     margin: 0;
+    margin-left: -16px;
     padding: 0;
-    float: left;
     border-bottom: solid #7f8c8d 2px;
     background-color: white;
     line-height: 45px;
@@ -49,6 +50,7 @@
   text-decoration: none;
   color: grey;
   display: grid;
+  position: relative;
 }
 
 #port > ul > li > a:hover {
@@ -413,7 +415,7 @@ input.MyButton:hover {
     position:absolute;
     z-index:1;
     top:30%;
-    left: 6%;
+    left: 0%;
     width:100%;
     text-align:center;
     color:#fff;
