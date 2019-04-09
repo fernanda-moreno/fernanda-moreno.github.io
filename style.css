@@ -295,6 +295,8 @@ div.a {
   #port > ul > li {
     display: inline-block;
     width: 100%;
+    margin-left: 0px;
+    text-align: left;
   }
 }
 
