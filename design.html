@@ -39,8 +39,63 @@
   <div class="tabcontent">
     <h1>Design</h1>
   </div>
+  <div id="PetBowl">
+      <h2>Organizational Branding Project</h2>
+      <h3>Skills used: Adobe - Illustrator, Dimension</h3>
+      <p>   For this project, I designed a logo and brand identity system for a coffee shop dedicated
+      to people who are involved in or aspire to work in the field of technology. I named the brand <b>Code & Coffee Co.</b>
+      and envisioned it as a productive space for students in tech as well as professional software engineers or developers.
+   The iconic logo for <b>Code & Coffee Co.</b> illustrates a cup filled with hot coffee marked by the HTML break symbol to demonstrate
+   a coffee break. The image represents the main product sold at the company and the HTML tag signifies that coding and technology
+ are incorporated into the theme of this coffee shop.</p>
+
+      <img class="myImg" src="remade_coffee_logo.png" alt="Code & Coffee Co. logo - made with Adobe Illustrator" width="500" height="440" hspace="30" bottom = "10px">
+      <img class="myImg" src="logo_mockup.png" alt="Logo mockups - design on pieces of visual collateral - made with Adobe Dimension" width="500" height="400" hspace="30" bottom = "10px">
+
+  </div>
+  <hr noshade>
+  <div id="PetBowl">
+        <h2>Emoji Collage</h2>
+        <h3>Skills used: Adobe Photoshop</h3>
+        <p>    For my Principles of Visual Design class, I designed a set of emojis that represent the feelings of a community of my choice.
+          I chose the Computational Media (CM) community because I felt close to this group and I knew a good amount of people from my classes
+          and some members from CM Ambassadors who I could photograph for this project. Each image represents a different emotion within
+          the CM community.</p>
+
+          <div class="w3-content w3-display-container">
+              <img class="mySlides" src="cmoji.jpg" width="500" height="400">
+              <img class="mySlides" src="stephmoji.jpg" width="500" height="400">
+              <img class="mySlides" src="jennamoji.jpg" width="500" height="400">
+              <img class="mySlides" src="elliemoji.jpg" width="500" height="400">
+              <img class="mySlides" src="chandlermoji.jpg" width="500" height="400">
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              x[slideIndex-1].style.display = "block";
+            }
+      </script>
+  </div>
+  <hr noshade>
     <div id="TravelTroopers">
       <h2>Travel Troopers App & Map Prototype</h2>
+      <h3>Skills used: Adobe xD, physical model, Wizard of Oz Prototyping</h3>
       <p>   While studying abroad in Georgia Tech's Barcelona Summer Program (2018), I took a class on User Interface Design.
         For our group project throughout the entire course, my team and I created a prototype of an app and augmented reality
         map interface that helped groups traveling abroad find the best local restaurants as recommended by their friends. In addition to
@@ -48,8 +103,8 @@
         communication among groups of friends.</p>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- Trigger the Modal -->
-        <img class="myImg" src="PosterPresentation.jpg" alt="Poster 1" width="500" height="400" hspace="30" bottom = "10px">
-        <img class="myImg" src="FinalPoster2.jpg" alt="Poster 2" width="500" height="400" hspace="30" bottom = "10px">
+        <img class="myImg" src="PosterPresentation.jpg" alt="Poster of possible prototypes: app, bracelet, and map" width="500" height="400" hspace="30" bottom = "10px">
+        <img class="myImg" src="FinalPoster2.jpg" alt="Poster of final product: app in combination with map" width="500" height="400" hspace="30" bottom = "10px">
 
         <!-- The Modal -->
         <div id="myModal" class="modal">
@@ -70,6 +125,7 @@
 
     <div id="PetBowl">
         <h2>Futuristic Pet Bowl</h2>
+        <h3>Skills used: Sketching, paper interface</h3>
         <p>   In the same UI class, I was assigned an open-ended individual project where I had to design, layout, and mockup
         a Family Messaging System that a busy family could use to communicate with each other across time and space. My idea was to
         create something that would allow a family to communicate in terms of when their pet was last fed or if it had already been
@@ -77,8 +133,8 @@
         into the pet's bowl so members of the family would know if their pet needed their food to be served. Below you will find the report
         and design sketches for this project.</p>
 
-        <img class="myImg" src="designsketches.jpg" alt="design1" width="500" height="400" hspace="30" bottom = "10px">
-        <img class="myImg" src="designsketches2.jpg" alt="design2" width="500" height="400" hspace="30" bottom = "10px">
+        <img class="myImg" src="designsketches.jpg" alt="Sketch of physical pet bowl and functionality description" width="500" height="400" hspace="30" bottom = "10px">
+        <img class="myImg" src="designsketches2.jpg" alt="Sketch of app layout and functionality description" width="500" height="400" hspace="30" bottom = "10px">
 
     </div>
     <script>
