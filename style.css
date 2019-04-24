@@ -429,7 +429,7 @@ input.MyButton:hover {
     text-align:center;
     color:#fff;
     opacity:0;
-    transition:.3s;
+    /* transition:.3s; */
   }
 
   .textWithBlurredBg:hover :not(img){
