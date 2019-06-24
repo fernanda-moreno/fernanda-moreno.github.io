@@ -423,7 +423,7 @@ input.MyButton:hover {
   padding: 5px;
   text-align: center;
   background-color:#39CCCC;
-  width: 100%;
+  max-width: 100%;
 }
 
 .tabcontent > h1 {
@@ -432,6 +432,7 @@ input.MyButton:hover {
 
 .textWithBlurredBg{
     width:400px;
+    max-width: 100%;
     height:auto;
     display:inline-block;
     position:relative;
