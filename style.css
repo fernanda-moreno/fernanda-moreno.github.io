@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Courgette|Libre+Franklin|Lobster+Two');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
 
 
 #navbar > ul {
@@ -490,4 +491,5 @@ input.MyButton:hover {
 
   #lab_social_icon_footer a {
     color: #333;
+    margin: 5px;
   }
