@@ -252,6 +252,11 @@ div.a {
   max-width: 100%;
 }
 
+#container {
+  width: 600px;
+  margin: auto;
+}
+
 @media only screen and (max-width: 60em) {
   div.a {
     font-size: 20px;
@@ -351,6 +356,11 @@ div.a {
     margin-left: auto;
     margin-right: auto;
     font-size: 50px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 60em) {
+  #container {
     max-width: 100%;
   }
 }
