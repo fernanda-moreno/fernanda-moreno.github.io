@@ -25,13 +25,16 @@
     color: black;
 }
 
-#AboutMe {
-  display: inline-block;
-}
+/* #AboutMe {
+  display: flex;
+  flex-direction: row;
+} */
 
-#AboutMe p {
-  margin-left: 450px;
-}
+/* #AboutMe p {
+  display: flex;
+  justify-content: right;
+  margin-left: 10vw;
+} */
 
 #port > ul {
   margin: 0px;
@@ -245,11 +248,32 @@ body {
 }
 
 div.a {
+  display: flex;
+  justify-content: right;
+  align-content: flex-start;
   font-size: 25px;
-  margin-right: 35px;
+  text-align: left;
+  margin-top: 3vh;
+  margin-bottom: 6vh;
+  margin-right: 2vw;
+  /* margin-right: 35px;
   margin-left: auto;
   text-align: left;
-  max-width: 100%;
+  max-width: 100%; */
+}
+
+.img-text {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 60em) {
+  .img-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-right: 2vw;
+  }
 }
 
 #container {
@@ -394,11 +418,15 @@ h3{
 }
 
 .center {
-    float: left;
-    display: block;
-    margin-left: 50px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
     width: 35%;
+    height: 80%;
+    max-width: 50%;
+    max-height: 50%;
     border-radius: 50%;
+    margin-bottom: 2vh;
 }
 
 #stars {
