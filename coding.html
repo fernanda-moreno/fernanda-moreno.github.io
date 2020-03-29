@@ -39,6 +39,31 @@
     <h1>Coding</h1>
   </div>
   <div id="java">
+    <h2>Cat Laser Controller</h2>
+    <h3> Skills used: HTML, CSS, Python, Flask, Raspberry Pi</h3>
+      <p>   Collaborated with a team at University of Florida's hackathon (SwampHacks 2020) to create a web application that allows users to remotely control 
+        a laser pointer on a Raspberry Pi and play with a cat. I developed the front-end of the web app and connected it to the Raspberry Pi using HTML, CSS, Python, and Flask.
+    </p>
+    <img class="myImg" src="cat-laser.png" alt="Front-end for Cat Lazer web app" width="500" height="440" hspace="30" bottom = "10px">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+    <br></br>
+    <form>
+      <input class="MyButton" type="button" value="GitHub Repo" onclick="window.location.href='https://github.com/fernanda-moreno/cat-lazer'" />
+    </form>
+    <hr noshade>
     <h2>Inside Out Battle Game</h2>
     <h3> Skills used: C, GameBoy Advance Game Development</h3>
       <p>   A game inspired by Disney Pixar's <i>Inside Out</i> where Joy must defeat the Depression clouds by shooting rays of sunshine at it all while
@@ -73,8 +98,8 @@
           their own constellations. This program utilizes an audio library so the connecting lines and background
           stars change color depending on the volume in the room.</p>
 
-        <img src="realstars.png" width="500" height="400" hspace="30">
-
+        <img class="myImg" alt="Constellation" src="realstars.png" width="500" height="400" hspace="30">
+        <br></br>
         <form>
           <input class="MyButton" type="button" value="GitHub Repo" onclick="window.location.href='https://github.com/fernanda-moreno/redraw-the-stars'"/>
         </form>
@@ -89,10 +114,7 @@
         form that resembles poetry. The idea for this bot came from the book <i>Milk and Vines</i>, which is a parody
         of Rupi Kaur's <i>Milk and Honey</i>. For an additional humorous effect, this bot tweets memes with
         nouns replaced with Georgia Tech-related words. Scroll through the bot's timeline below!</p>
-        <!-- <blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">what would Bud Peterson do?</p>&mdash; Milk &amp; Gech (@milkandgech) <a href="https://twitter.com/milkandgech/status/1058421834029432832?ref_src=twsrc%5Etfw">November 2, 2018</a></blockquote>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-        <!-- <blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">why <br> pay money <br> to go inside <br> a haunted house <br> when <br> you can take <br>Linear Algebra<br> and get scared <br> for <br> free?</p>&mdash; Milk &amp; Gech (@milkandgech) <a href="https://twitter.com/milkandgech/status/1057740675830202368?ref_src=twsrc%5Etfw">October 31, 2018</a></blockquote>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
         <a class="twitter-timeline" data-width="400" data-height="550" href="https://twitter.com/milkandgech?ref_src=twsrc%5Etfw">Tweets by milkandgech</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         <form>
@@ -134,6 +156,29 @@
       </form>
     </div>
 </br>
+<script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = $('.myImg');
+  var modalImg = $("#img01");
+  var captionText = document.getElementById("caption");
+  $('.myImg').click(function(){
+      modal.style.display = "block";
+      var newSrc = this.src;
+      modalImg.attr('src', newSrc);
+      captionText.innerHTML = this.alt;
+  });
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+</script>
   <section id="lab_social_icon_footer">
     <div class="container">
       <div class="text-center center-block">
