@@ -22,7 +22,7 @@
     display: inline-block;
     float: right;
     border-bottom: solid transparent 2px;
-    color: black;
+    color: white;
 }
 
 /* #AboutMe {
@@ -49,7 +49,7 @@
     margin-left: -16px;
     padding: 0;
     border-bottom: solid #7f8c8d 2px;
-    background-color: white;
+    background-color: #272727;
     line-height: 45px;
     text-align: center;
     border-bottom: none;
@@ -57,13 +57,13 @@
 
 #port > ul > li > a {
   text-decoration: none;
-  color: grey;
+  color: lightgray;
   display: grid;
   position: relative;
 }
 
 #port > ul > li > a:hover {
-  background-color: lightgrey;
+  background-color: black;
 }
 
 ul > li > ul > li {
@@ -79,7 +79,7 @@ ul > li:active > ul > li, ul > li:hover > ul > li {
     height: 100%;
     margin: 0;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .home:hover, .nav-link:hover {
@@ -238,13 +238,18 @@ img.mySlides {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: black;
-    background-color: #fefefe;
+    color: lightgray;
+    background-color: #272727;
     /* margin-top: 2em; */
     text-align: center;
     box-sizing: border-box;
     margin: 2em 0px 0px 0px;
     padding: 0;
+}
+
+h2 a {
+  color: white;
+  text-decoration: none;
 }
 
 div.a {
@@ -374,7 +379,7 @@ div.a {
 }
 
 @media only screen and (max-width: 60em) {
-  #AboutMe h1, .tabcontent {
+  #AboutMe h1, h1 {
     text-align: center;
     margin-top: 200px;
     margin-left: 10px;
@@ -382,7 +387,7 @@ div.a {
     font-size: 50px;
     max-width: 100%;
   }
-  .tabcontent {
+  .h1 {
     text-align: center;
     margin-top: 200px;
     margin-left: auto;
@@ -404,12 +409,13 @@ div.b {
 h1 {
   font-family: 'Courgette', cursive;
   font-family: 'Lobster Two', cursive;
-  color: black;
+  color: white;
   font-size: 65px;
 }
 h2 {
     font-family: 'Slabo 27px', serif;
     font-size: 40px;
+    color: white
 }
 
 h3{
@@ -455,19 +461,19 @@ h3{
 }
 
 input.MyButton {
-    width: 200px;
+    width: 150px;
     padding: 20px;
     cursor: pointer;
     font-weight: bold;
     font-size: 100%;
-    background: #9068be;
+    background: gray;
     color: #fff;
     border: 1px solid #3366cc;
     border-radius: 10px;
 }
 input.MyButton:hover {
     color: white;
-    background: #3366cc;
+    background: black;
     border: 1px solid #fff;
 }
 
@@ -482,7 +488,7 @@ input.MyButton:hover {
   color: white;
   padding: 5px;
   text-align: center;
-  background-color:#39CCCC;
+  background-color:black;
   max-width: 100%;
 }
 
@@ -510,7 +516,7 @@ input.MyButton:hover {
 
   .textWithBlurredBg:hover img{
     filter:blur(2px) brightness(60%);
-    box-shadow:0 0 16px cyan;
+    box-shadow:0 0 16px #272727;
   }
 
   .textWithBlurredBg :not(img){
@@ -531,11 +537,11 @@ input.MyButton:hover {
 
   #lab_social_icon_footer {
     padding: 40px 0;
-    background-color: #dedede;
+    background-color: #474747;
     max-width: 100%;
   }
 
   #lab_social_icon_footer a {
-    color: #333;
+    color: white;
     margin: 5px;
   }
