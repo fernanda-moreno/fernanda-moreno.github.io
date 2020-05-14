@@ -89,7 +89,8 @@ img.mySlides {
   margin-right: 200px;
   margin-left: 200px;
   text-align: left;
-  font-size: 25px;
+  font-size: 115%;
+  line-height: 180%;
   max-width: 100%;
 }
 
@@ -212,6 +213,7 @@ div.a {
   margin-top: 3vh;
   margin-bottom: 6vh;
   margin-right: 2vw;
+  line-height: 150%;
 }
 
 .img-text {
@@ -237,8 +239,8 @@ div.a {
   div.a {
     font-size: 20px;
     margin: auto;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0.5vw;
+    margin-right: 1vw;
     float: right;
     margin-top: 30px;
     text-align: left;
