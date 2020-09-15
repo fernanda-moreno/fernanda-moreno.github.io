@@ -72,7 +72,7 @@ ul > li:active > ul > li, ul > li:hover > ul > li {
     color:grey;
 }
 
-.a > .nav-link {
+.bio > .nav-link {
   color: grey;
 }
 
@@ -205,11 +205,11 @@ h2 a {
   text-decoration: none;
 }
 
-div.a {
+div.bio {
   display: flex;
   justify-content: right;
   align-content: flex-start;
-  font-size: 3.5vh;
+  font-size: 3.45vh;
   text-align: left;
   margin-top: 3vh;
   margin-bottom: 6vh;
@@ -238,7 +238,7 @@ div.a {
 }
 
 @media only screen and (max-width: 60em) {
-  div.a {
+  div.bio {
     font-size: 20px;
     margin: auto;
     margin-left: 0.5vw;
@@ -264,7 +264,7 @@ div.a {
     margin-top: 0;
   }
 
-  .a {
+  .bio {
     padding-top: 0;
   }
 }
