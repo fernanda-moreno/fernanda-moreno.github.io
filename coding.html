@@ -74,15 +74,52 @@
   <!-- Projects -->
   <h1>Coding</h1>
   <div id="project-description">
+    <h2><a href="https://github.gatech.edu/gt-sga-it/course-critique" target="_blank" rel="noreferrer">Course Critique
+        (Winter
+        2020)</a></h2>
+    <h3> Skills used: ReactJS, git</h3>
+    <p>
+      In Fall 2020, I joined Georgia Tech's SGA IT Board as a UX Designer for Course Critique, a website which displays
+      grade distributions for professors
+      and courses at Georgia Tech. I worked with another UX Designer to come up with a redesign for the website using
+      Figma. A few weeks after
+      joining the team, I took on the role as a front-end software engineer to implement the new vision for the website.
+      One of my favorite contributions
+      was adding a dark/light mode toggle to the website so that users can choose the interface they prefer.
+      Check out the website at <b><a href="https://critique.gatech.edu" target="_blank" rel="noreferrer"
+          class="nav-link" style="color:#E8C343;">critique.gatech.edu</a></b>!
+    </p>
+    <img class="myImg" alt="Course Critique home page mockup" src="images/course-critique.png" width="500" height="400"
+      hspace="30">
+    <br></br>
+    <hr noshade>
+    <!-- <h2><a href="https://github.com/fernanda-moreno/miranda" target="_blank" rel="noreferrer">Miranda's Portfolio
+        Website (Winter 2020)</a></h2>
+    <h3> Skills used: Gatsby/ReactJS, Netlify, git</h3>
+    <p>
+      As a Christmas present for my girlfriend, I customized a portfolio website for her with GatsbyJS and deployed it
+      with Netlify!
+      I used an existing Gatsby portfolio template and added her information, customized the landing page with its
+      current hero image,
+      added an Experience section, and implemented a photo slider to showcase multiple images from her projects rather
+      than just one.
+      Check out the website at <b><a href="https://mirandamunoz.com" target="_blank" rel="noreferrer" class="nav-link"
+          style="color:#00cdac">mirandamunoz.com</a></b>!
+    </p>
+    <img class="myImg" alt="Miranda's portfolio home page" src="images/miranda-portfolio.png" width="500" height="400"
+      hspace="30">
+    <br></br>
+    <hr noshade> -->
     <h2><a href="https://github.com/fernanda-moreno/the-mernu" target="_blank" rel="noreferrer">Mernu Recipes
         Website (Fall 2020)</a></h2>
-    <h3> Skills used: Gatsby/ReactJS, Flotiq API, git</h3>
+    <h3> Skills used: Gatsby/ReactJS, Flotiq API, Netlify, git</h3>
     <p>
       I forked a GatsbyJS recipe starter website from Flotiq and further developed and customized it to create a website
       for my girlfriend and I's favorite recipes!
       We call it the "Mernu" because our names are Miranda and Fernanda and this website is a menu collection of our
-      favorite dishes. I customized the cards on the home
-      page and added a search and filter functionality.
+      favorite dishes. I customized the look of cards on the home
+      page with CSS and added a search and filter functionality with React/JavaScript. All menu items are added using
+      the Flotiq API and the website is deployed on Netlify.
       Check out the website at <b><a href="https://mernu.net/" target="_blank" rel="noreferrer" class="nav-link"
           style="color:#03a9c3;">mernu.net</a></b>!
     </p>
@@ -311,7 +348,7 @@
 
     const scrollToTop = () => {
       const c = document.documentElement.scrollTop || document.body.scrollTop;
-    
+
       if (c > 0) {
         window.requestAnimationFrame(scrollToTop);
         window.scrollTo(0, c - c / 10);
