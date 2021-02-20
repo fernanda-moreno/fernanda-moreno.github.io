@@ -327,6 +327,13 @@ div.bio {
     float: none;
     width: 75%;
   }
+
+  .center {
+    width: 15em !important;
+    height: 15em !important;
+    max-width: 15em !important;
+    max-height: 15em !important;
+}
   #AboutMe p {
     margin-left: 4vw;
     margin-right: 4vw;
@@ -454,10 +461,10 @@ h3{
     display: flex;
     justify-content: left;
     align-content: center;
-    width: 30%;
-    height: 74%;
-    max-width: 50%;
-    max-height: 50%;
+    width: 430px;
+    height: 430px;
+    max-width: 430px;
+    max-height: 430px;
     border-radius: 50%;
     margin-bottom: 2vh;
     margin-left: 4vw;
