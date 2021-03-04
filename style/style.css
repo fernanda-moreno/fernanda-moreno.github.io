@@ -46,7 +46,7 @@
     /* width: 100%; */
     text-align: center;
     /* position: absolute; */
-    font-size: 2vh;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -386,6 +386,15 @@ div.bio {
     padding: 0;
     box-sizing: border-box;
   }
+
+  .features {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+.features:hover  {
+  opacity: 50%;
 }
 
 @media only screen and (max-width: 60em) {
@@ -545,7 +554,7 @@ input.MyButton:hover {
   .textWithBlurredBg img{
     max-width:100%;
     height:100%;
-    transition:.3s;
+    /* transition:.3s; */
     border-radius:4px;
     margin: auto;
   }
