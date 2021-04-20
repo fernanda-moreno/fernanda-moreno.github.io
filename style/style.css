@@ -40,7 +40,7 @@
 
 #navbar > ul {
     display: block;
-    margin: 4vh auto;
+    margin: 4vh 3vw;
     /* padding-bottom: 3vh; */
     list-style: none;
     /* width: 100%; */
@@ -50,10 +50,16 @@
     text-decoration: none;
 }
 
+.love {
+  text-align: left;
+  font-size: 20px;
+  line-height: 36px;
+}
+
 @media only screen and (min-width: 1600px){
   #navbar > ul {
       float: right;
-      margin: 4vh -10vw;
+      margin: 4vh 4vw;
       /* padding-bottom: 3vh; */
       width: 100%;
       display: flex;
