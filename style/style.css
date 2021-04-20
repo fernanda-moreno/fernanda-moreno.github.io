@@ -361,6 +361,11 @@ div.bio {
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  .col-lg-14 {
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+  }
   #project-description p {
     font-size: 15px;
     margin: auto;
