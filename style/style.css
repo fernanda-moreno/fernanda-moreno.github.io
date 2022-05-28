@@ -139,7 +139,7 @@ ul > li:active > ul > li, ul > li:hover > ul > li {
 }
 
 .home:hover, .nav-link:hover {
-    color:grey;
+    color:rgb(187, 187, 187);
     text-decoration: none;
 }
 
