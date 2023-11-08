@@ -102,8 +102,6 @@ footerTemplate.innerHTML = `
       <div class="text-center center-block">
         <a href="FernandaMorenoResume2022-web.pdf" target="_blank"
           rel="noreferrer" style="margin: 8px"><i class="fas fa-briefcase fa-2x"></i></a>
-        <a href="https://github.com/fernanda-moreno" target="_blank" rel="noreferrer" style="margin: 8px"><i
-            class="fab fa-github fa-2x"></i></a>
         <a href="mailto:fern@gatech.edu" style="margin: 8px"><i class="fas fa-envelope fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/fernandamoreno99/" target="_blank" rel="noreferrer" style="margin: 8px"><i
             class="fab fa-linkedin fa-2x"></i></a>
@@ -112,7 +110,7 @@ footerTemplate.innerHTML = `
       </div>
     </div>
   </section>
-  <p style="font-size: 14px; margin-bottom: 2vh; margin-top: 2vh">Made with ❤️ and ☕ by Fernanda Moreno. © 2022.</p>
+  <p style="font-size: 14px; margin-bottom: 2vh; margin-top: 2vh">Made with ❤️ and ☕ by Fernanda Moreno. © 2023.</p>
   </footer>
 `;
 
